@@ -1,11 +1,11 @@
-package com.xworkz.ipl.init;
+package com.xworkz.college.init;
 
-import com.xworkz.ipl.configuration.IplConfiguration;
+import com.xworkz.college.configuration.CollegeConfiguration;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class IplInit extends AbstractAnnotationConfigDispatcherServletInitializer implements WebMvcConfigurer {
+public class CollegeInit extends AbstractAnnotationConfigDispatcherServletInitializer implements WebMvcConfigurer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return new Class[0];
@@ -13,7 +13,7 @@ public class IplInit extends AbstractAnnotationConfigDispatcherServletInitialize
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class[] {IplConfiguration.class};
+        return new Class[] {CollegeConfiguration.class};
     }
 
     @Override
@@ -23,6 +23,7 @@ public class IplInit extends AbstractAnnotationConfigDispatcherServletInitialize
 
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+        WebMvcConfigurer.super.configureDefaultServletHandling(configurer);
         configurer.enable();
     }
 }
