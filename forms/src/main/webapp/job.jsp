@@ -23,14 +23,15 @@
         }
         h1 {
             color: #dc3545; /* Bootstrap's red color */
+            margin-top:100px;
             text-align: center;
         }
     </style>
 </head>
 <body>
     <div class="form-container">
-        <h1>Scholarship Form</h1>
-        <form class="form-horizontal" action="scholarship" method="post">
+        <h1>Job Form</h1>
+        <form class="form-horizontal" action="job" method="post">
             <div class="form-group">
                 <label class="control-label col-sm-2" for="first-name">First Name:</label>
                 <div class="col-sm-10">
@@ -56,17 +57,41 @@
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label col-sm-2" for="otp">OTP:</label>
+                <label class="control-label col-sm-2" for="otp">Age:</label>
                 <div class="col-sm-10">
-                    <input type="number" class="form-control" id="otp" placeholder="Enter otp" name="otp">
+                    <input type="number" class="form-control" id="otp" placeholder="Enter age" name="age">
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label col-sm-2" for="password">Password:</label>
+                <label class="control-label col-sm-2" for="password">College Name:</label>
                 <div class="col-sm-10">
-                    <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+                    <input type="password" class="form-control" id="password" placeholder="Enter collegeName" name="collegeName">
                 </div>
             </div>
+               <div class="form-group">
+                            <label class="control-label col-sm-2" for="otp">Qualification:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="otp" placeholder="Enter qualification" name="qualification">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="password">Percentage:</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="password" placeholder="Enter percentage" name="percentage">
+                            </div>
+                        </div>
+                         <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="otp">Experience:</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="number" class="form-control" id="otp" placeholder="Enter experience" name="experience">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="password">Address:</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="password" class="form-control" id="password" placeholder="Enter address" name="address">
+                                                    </div>
+                                                </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
                     <div class="checkbox">

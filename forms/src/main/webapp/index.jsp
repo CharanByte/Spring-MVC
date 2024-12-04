@@ -28,7 +28,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="scholarshipform.jsp">Scholarship Form</a>
-                <a class="navbar-brand" href="scholarshipform.jsp">WebSiteName</a>
+                <a class="navbar-brand" href="job.jsp">Job Form</a>
                 <a class="navbar-brand" href="#">WebSiteName</a>
                 <a class="navbar-brand" href="#">WebSiteName</a>
             </div>
