@@ -29,8 +29,9 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="scholarshipform.jsp">Scholarship Form</a>
                 <a class="navbar-brand" href="job.jsp">Job Form</a>
-                <a class="navbar-brand" href="#">WebSiteName</a>
-                <a class="navbar-brand" href="#">WebSiteName</a>
+                <a class="navbar-brand" href="organdonation.jsp">OrganDonation Form</a>
+                <a class="navbar-brand" href="matrimony.jsp">Matrimony Form</a>
+                <a class="navbar-brand" href="matrimony.jsp">Hotel Room  Form</a>
             </div>
         </div>
     </nav>

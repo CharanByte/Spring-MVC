@@ -1,6 +1,8 @@
 package com.xworkz.forms.component;
 
 import com.xworkz.forms.dto.JobDTO;
+import com.xworkz.forms.dto.MatrimonyDTO;
+import com.xworkz.forms.dto.OrganDonationDTO;
 import com.xworkz.forms.dto.ScholarshipDTO;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,6 +24,18 @@ public class Forms {
         System.out.println("running applyJob");
         System.out.println(jobDTO);
         return "job.jsp";
+    }
+    @RequestMapping("organ")
+    public  String donateOrgan(OrganDonationDTO organDonationDTO){
+        System.out.println("running donateOrgan");
+        System.out.println(organDonationDTO);
+        return "organdonation.jsp";
+    }
+    @RequestMapping("matrimony")
+    public  String applyMatrimony(MatrimonyDTO matrimonyDTO){
+        System.out.println("running MatrimonyDTO");
+        System.out.println(matrimonyDTO);
+        return "matrimony.jsp";
     }
 
 }
