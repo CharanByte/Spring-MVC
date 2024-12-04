@@ -67,6 +67,7 @@
                 <div class="col-sm-10">
                     <input type="password" class="form-control" id="password" placeholder="Enter collegeName" name="collegeName">
                 </div>
+
             </div>
                <div class="form-group">
                             <label class="control-label col-sm-2" for="otp">Qualification:</label>
