@@ -31,7 +31,10 @@
                 <a class="navbar-brand" href="job.jsp">Job Form</a>
                 <a class="navbar-brand" href="organdonation.jsp">OrganDonation Form</a>
                 <a class="navbar-brand" href="matrimony.jsp">Matrimony Form</a>
-                <a class="navbar-brand" href="hotelroom.jsp">Hotel Room  Form</a>
+                <a class="navbar-brand" href="hotelroom.jsp">Hotel Room Form</a>
+                <a class="navbar-brand" href="DeathCertificate.jsp">Death Certificate Form</a>
+                <a class="navbar-brand" href="Bank.jsp">Bank Form</a>
+                 <a class="navbar-brand" href="Hospital.jsp">Hospital Form</a>
             </div>
         </div>
     </nav>
