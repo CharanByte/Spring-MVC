@@ -27,6 +27,7 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
+               <a class="navbar-brand" href="Passport.jsp">Passport Form</a>
                 <a class="navbar-brand" href="scholarshipform.jsp">Scholarship Form</a>
                 <a class="navbar-brand" href="job.jsp">Job Form</a>
                 <a class="navbar-brand" href="organdonation.jsp">OrganDonation Form</a>
@@ -35,6 +36,7 @@
                 <a class="navbar-brand" href="DeathCertificate.jsp">Death Certificate Form</a>
                 <a class="navbar-brand" href="Bank.jsp">Bank Form</a>
                  <a class="navbar-brand" href="Hospital.jsp">Hospital Form</a>
+
             </div>
         </div>
     </nav>
